@@ -1,0 +1,132 @@
+
+<!-- Equizz(html)front-end-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Equizz</title>
+	<link rel="stylesheet" href=".\styling.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+
+	
+
+	<div class="w3-center w3-animate-opacity">
+		
+		<table style="table-layout: fixed ; width: 100%;background-color:white;">
+			<tr>
+	
+            <th><h3 style=text-align:left><b>Equizz...</b></h3><th>
+	    <th><a href="#">Home</a>
+            <th><a href="about.html">About us</a>
+            <th><a href="contact.html">contact us</a></th>
+        </tr>
+    </table>
+    </div>
+
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+    </script>
+	<br><br><h1 style="text-align:center;"><b><u>ONLINE QUIZ PLATFORM</b></u></h1>
+	<br><br><br> 
+	<center>
+	<table>
+	<th>
+	<form method="get" action="login.html"><!--Login form-->
+		<center><button type="login">Login</button></center>
+	</form></th>
+	<th><form method="get" action="register.html"><!--Register form-->
+		<button type="register">Register</button>
+	</form></th>
+	</table></center>
+	<br><br><br><h4 style="text-align:center;"><b>GOOD LUCK.</b></h4>
+	
+</body>
+</html>
+
+
+--------------------------------------------------------------About.html------------------------------------------------------------------------------------------------------------------------------------------------------------
+<DOCTYPE! html>
+<html>
+<head>
+<title>About us</title>
+</head>
+<body>
+<ul>
+<li>Equizz is a popular form of entertainment for web surfers. Online quizzes are generally free to play and for entertainment purposes only though some online quiz websites offer prizes. Websites feature online quizzes on many subjects. One popular type of online quiz is a personality quiz or relationship quiz which is similar to what can be found in many women's or teen magazines.</li>
+<li>Blog quizzes:
+Blog quizzes (also known as quiz blog) refer to a specific genre of quizzes which are conducted by the quizzers on blogs.[citation needed] Blog quizzes may be about verbs[1] or a wide range of other topics.</li>
+
+ <li>Educational quizzes:
+Quiz is one of the most common eLearning patterns for many of the online course. Some companies and schools use online quizzes as a means to educate their employees or students respectively. Popular websites hosting quizzes for this purpose include Quizlet and Revision Quiz Maker.</li>
+
+<li>Practical applications:
+Many online quizzes are set up to actually test knowledge or identify a person's attributes. Some companies use online quizzes as an efficient way of testing a potential hire's knowledge without that candidate needing to travel. Online dating services often use personality quizzes to find a match between similar members.</li>
+
+<li>Other:
+Most online quizzes are to be taken lightly. The results do not often reflect the true personality or relationship. They are also rarely psychometrically valid. However, they may occasion reflection on the subject of the quiz and provide a springboard for a person to explore his or her emotions, beliefs, or actions.</li>
+</ul>
+<p>Equizz is a user-friendly platform that helps to gain knwoledge...in particular courses.It is a simple, yet effective way to check learners' knowledge. By putting them online, you can make the assessment process even easier. You no longer need to gather all your students into one room to complete a test, print worksheets for all participants, and check each test manually.</p>
+<img src="Equizz_3.png"></img><!--wireframe images-->
+<img src="Equizz_2.png"></img>
+</body>
+</html>
+
+--------------------------------------------------------------contact.html------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<DOCTYPE! html>
+<html>
+<head>
+<title>Contat us</title>
+</head>
+<body>
+<div class="container"><!--contact form-->
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+	<br>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+	<br>
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+	<option value="india">India</option>
+    </select>
+	<br>
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+	<br><br>
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+<h4><center>Email:contactus@equizz.com</center></h4>
+<h4><center>instagram:Equizz...</center></h4>
+
+</body>
+</html>
